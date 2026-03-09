@@ -5,7 +5,7 @@ agent any
     stage('Checkout'){
     steps{
 
-      git https://github.com/beatjoy15/session2.git
+      git 'https://github.com/beatjoy15/session2.git'
     }
   }
 stage('Publish')
