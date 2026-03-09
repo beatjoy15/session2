@@ -1,6 +1,8 @@
 pipeline{
 agent any
-  stages('Checkout'){
+  stages
+  {
+    stage('Checkout'){
     steps{
 
       git https://github.com/beatjoy15/session2.git
@@ -19,5 +21,5 @@ stage('Publish')
       ])
   }
   }
-  
+} 
 }
